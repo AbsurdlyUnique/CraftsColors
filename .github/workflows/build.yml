@@ -11,7 +11,6 @@ env:
   JAVA_VERSION: 21
   VERSION: 0.0.1-pre-alpha-MC1.20.1
   RELEASE_NAME: Crafts & colors update
-  # MODRINTH_TOKEN: mrp_LNtrWNtmPqCZHzT0t5L8qRt8RMEP4PZrX5CZ7EQQdLsQCjVYSWWr5ESRP8MV
   MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
   modrinth-id: cqpUc74B
   file: build/libs/*pre-alpha.jar # Adjust path/pattern to match your artifact's location and name
